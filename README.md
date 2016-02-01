@@ -57,7 +57,9 @@ See [Doing continuous integration with arduino builder](https://github.com/ardui
 
 You need [Go 1.4.3](https://golang.org/dl/#go1.4.3).
 
-Repo root contains script `setup_go_env_vars`. Use it as is or as a template for setting up Go environment variables.
+Repo root contains the script `setup_go_env_vars`. Use it as is or as a template for setting up Go environment variables.
+
+To install `codereview/patch` you have to install [Mercurial](https://www.mercurial-scm.org/) first.
 
 Once done, run the following commands:
 
@@ -85,7 +87,7 @@ go test -v ./src/arduino.cc/builder/test/... | bin/go-junit-report > report.xml
 
 ### License and Copyright
 
-`arduino-builder` is licensed under General Public License version 2, as published bythe Free Software Foundation. See [LICENSE.txt](LICENSE.txt).
+`arduino-builder` is licensed under General Public License version 2, as published by the Free Software Foundation. See [LICENSE.txt](LICENSE.txt).
 
 Copyright (C) 2015 Arduino LLC and contributors
 
